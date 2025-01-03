@@ -33,7 +33,7 @@ from torchmetrics.classification import Accuracy
 # from torchsummary import summary
 import cv2
 
-# /home/tuk76325/work/PythonProjects/MinaAutoEncoder
+# /REDACTED
 
 print(torch.cuda.device_count())
 
@@ -43,7 +43,7 @@ for i in range(torch.cuda.device_count()-1):
 ALPHA = "-ACDEFGHIKLMNPQRSTVWY"
 SEQ_DEPTH = len(ALPHA) #21 alpha len
 ROOT_PATH = f"/home"
-DATA_FOLDER = "/tuk76325/work/PythonProjects/MinaAutoEncoder"
+DATA_FOLDER = "/REDACTED"
 N_POS = "43pos"
 train_sequences_file_name = f"/train_PF00018uniprot_filtered0.2"
 test_sequences_file_name = f"/test_PF00018uniprot_filtered0.2"
